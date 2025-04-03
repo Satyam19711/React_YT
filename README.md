@@ -14,13 +14,15 @@ Install my-project with npm
 
 ```bash
 git clone https://github.com/Satyam19711/React_YT.git
-
+```
+```bash
 cd React_YT
-
+```
+```bash
 npm install
-
+```
+```bash
 npm start
-
 ```
 
 ## Screenshots
@@ -44,29 +46,37 @@ Deploy on Vercel:
 
 ```bash
 npm install -g vercel
+```
+```bash
 vercel login
+```
+```bash
 vercel
-
 ```
     
 
 Deploy on Netlify:
 ```bash
 npm install -g netlify-cli
+```
+```bash
 netlify login
+```
+```bash
 netlify deploy
-
 ```
 
 Deploy on GitHub Pages:
 ```bash
 npm install gh-pages --save-dev
-
+```
+```bash
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
 }
-
+```
+```bash
 npm run deploy
 
 ```
