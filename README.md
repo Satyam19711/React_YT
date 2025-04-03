@@ -23,6 +23,10 @@ npm start
 
 ```
 
+## Screenshots
+![yt clone](https://github.com/user-attachments/assets/ffd9735c-1fe8-4012-b864-7913b1524dcb)
+
+
 
 
 ## 🌍 Live Demo
@@ -70,4 +74,7 @@ npm run deploy
 ## Support
 
 For support, email smauryachs44@gmail.com
+
+
+
 
