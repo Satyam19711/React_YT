@@ -65,6 +65,19 @@
 
 @media (max-width: 900px) {
   .sidebar {
-    display: none;
+    width: 200px;
+    transform: translateX(-100%);
+  }
+
+  .sidebar:not(.small-sidebar) {
+    transform: translateX(0);
+  }
+
+  body.sidebar-open::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    z-index: 150;
   }
 }

@@ -9,13 +9,17 @@ import tech from "../../assets/tech.png";
 import music from "../../assets/music.png";
 import blogs from "../../assets/blogs.png";
 import news from "../../assets/news.png";
-import jack from "../../assets/jack.png";
-import simon from "../../assets/simon.png";
-import tom from "../../assets/tom.png";
-import megan from "../../assets/megan.png";
-import cameron from "../../assets/cameron.png";
+import bears from "../../assets/bears.png";
+import facts from "../../assets/Facts.png";
+import fly from "../../assets/fly.png";
+import aaj from "../../assets/aaj.png";
+import indian from "../../assets/Indian.png";
 
-const Sidebar = ({ sidebar, category, setCategory }) => {
+const Sidebar = ({ sidebar, category, setCategory, setSidebar }) => {
+  const handleClick = (cat) => {
+    setCategory(cat);
+    setSidebar(false);
+  };
   return (
     <div className={`sidebar ${sidebar ? "" : "small-sidebar"}`}>
       <div className="shortcut-links">
@@ -95,28 +99,28 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
         <div className="subscribed-list">
           <h3>Subscribed</h3>
           <div className="side-link">
-            <img src={jack} alt="" />
+            <img src={bears} alt="" />
             <p>BeerBiceps</p>
           </div>
 
           <div className="side-link">
-            <img src={simon} alt="" />
+            <img src={facts} alt="" />
             <p>FactTechz</p>
           </div>
 
           <div className="side-link">
-            <img src={tom} alt="" />
+            <img src={fly} alt="" />
             <p>Flying Beast</p>
           </div>
 
           <div className="side-link">
-            <img src={megan} alt="" />
-            <p>5-Minute Crafts</p>
+            <img src={aaj} alt="" />
+            <p>Aaj Tak</p>
           </div>
 
           <div className="side-link">
-            <img src={cameron} alt="" />
-            <p>Nas Daily</p>
+            <img src={indian} alt="" />
+            <p>Mr. Indian Hacker</p>
           </div>
         </div>
       </div>

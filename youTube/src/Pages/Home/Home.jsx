@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import Feed from "../../Components/Feed/Feed";
-import { useState } from "react";
 
-const Home = ({ sidebar }) => {
+const Home = ({ sidebar, searchTerm, isSearching, setIsSearching }) => {
   const [category, setCategory] = useState(0);
 
   return (
@@ -15,7 +14,12 @@ const Home = ({ sidebar }) => {
         setCategory={setCategory}
       />
       <div className={`container ${sidebar ? "" : "large-container"}`}>
-        <Feed category={category} />
+        <Feed
+          category={category}
+          searchTerm={searchTerm}
+          isSearching={isSearching}
+          setIsSearching={setIsSearching}
+        />
       </div>
     </>
   );

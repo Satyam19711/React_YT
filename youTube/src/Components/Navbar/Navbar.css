@@ -14,12 +14,16 @@ nav {
 }
 
 .nav-left .logo {
-  width: 100%;
+  width: 12%;
+}
+
+.nav-middle {
+  padding-right: 300px;
 }
 
 .nav-middle .search-box {
   border: 1px solid #ccc;
-  margin-right: 15px;
+
   padding: 8px 12px;
   border-radius: 25px;
 }
@@ -46,10 +50,6 @@ nav {
 }
 
 @media (max-width: 900px) {
-  .menu-icon {
-    display: none;
-  }
-
   .nav-right img {
     display: none;
   }
@@ -58,8 +58,11 @@ nav {
     display: block;
     width: 30px;
   }
-  .logo {
-    width: 90px;
+  .nav-left .logo {
+    width: 50px;
+  }
+  .nav-middle {
+    padding-right: 0;
   }
 
   .nav-middle .search-box input {
