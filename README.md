@@ -1,90 +1,59 @@
 
-#  YouTube Clone
+# 🎥 YouTube Clone
 
-This YouTube Clone is a React-based web application that allows users to watch videos by selecting different categories such as News, Gaming, Music, and more. The project is built using React.js and integrates the YouTube Data API to fetch and display video content dynamically.
+A responsive YouTube-like web app built using **React**.  
+It allows users to browse and watch videos by selecting different categories such as **News**, **Gaming**, **Music**, and more — all within a clean, user-friendly interface.
 
-The application features a responsive design, ensuring a smooth user experience across different devices. Users can browse videos based on categories, making it easy to explore best content.
+## Demo
 
 
 
-
-## Installation
-
-Install my-project with npm
-
-```bash
-git clone https://github.com/Satyam19711/React_YT.git
-```
-```bash
-cd React_YT
-```
-```bash
-npm install
-```
-```bash
-npm start
-```
-
+🔗 **Live Preview:** [Click Here](https://ytubee.vercel.app/)
 ## Screenshots
-![yt clone](https://github.com/user-attachments/assets/ffd9735c-1fe8-4012-b864-7913b1524dcb)
+
+![App Screenshot](https://github.com/Satyam19711/React_YT/blob/main/youTube/src/assets/Yt-home.png)
+
+![App Screenshot](https://github.com/Satyam19711/React_YT/blob/main/youTube/src/assets/side.png)
+
+![App Screenshot](https://github.com/Satyam19711/React_YT/blob/main/youTube/src/assets/yt-video.png)
+
+![App Screenshot](https://github.com/Satyam19711/React_YT/blob/main/youTube/src/assets/comments.png)
+## 🚀 Features
+
+- 🔍 **Search for any video** directly from the search bar  
+- 🎬 Browse videos by category (News, Gaming, Music, etc.)  
+- 📱 Fully responsive design for all screen sizes  
+- 🧭 Sidebar navigation for easy access  
+- 🎥 Watch videos instantly via embedded YouTube player  
+- ⚡ Built using **React + Vite** for blazing-fast performance  
 
 
+## 🧰 Tech Stack
+| Category | Technologies Used |
+|-----------|-------------------|
+| Frontend | React.js, CSS3, JSX |
+| API | YouTube Data API |
+| Styling | Flexbox, Grid |
+| Deployment | Netlify / Vercel |
 
 
-## 🌍 Live Demo
+## ⚙️ Installation & Setup
 
-Check out the live version of this YouTube Clone and explore videos by category like News, Gaming, Music, and more. The project is built using React.js and the YouTube Data API to provide a smooth video-watching experience.
+Follow these steps to set up the project locally 👇
 
-🔗 Live Demo: https://ytubee.vercel.app/
+```bash
+# 1. Clone this repository
+git clone https://github.com/Satyam/React_YT.git
 
+# 2. Navigate into the project folder
+cd React_YT/youTube
 
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
 ## Deployment
 
-This project can be deployed on platforms like Vercel, Netlify, or GitHub Pages. Follow these steps to deploy it:
-
-Deploy on Vercel:
-
-```bash
-npm install -g vercel
-```
-```bash
-vercel login
-```
-```bash
-vercel
-```
-    
-
-Deploy on Netlify:
-```bash
-npm install -g netlify-cli
-```
-```bash
-netlify login
-```
-```bash
-netlify deploy
-```
-
-Deploy on GitHub Pages:
-```bash
-npm install gh-pages --save-dev
-```
-```bash
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-```
-```bash
-npm run deploy
-
-```
-
-## Support
-
-For support, email smauryachs44@gmail.com
-
-
-
+To deploy this project run
 
